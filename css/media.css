@@ -1,0 +1,67 @@
+@media (max-width: 575.98px){
+    section#topo{
+        padding-left: 70px;
+        padding-bottom: 55px;
+        background-image: url('../img/Foto-Mobile.png');
+        background-position: center;
+        background-size: cover;
+    }
+
+    section#topo h1{
+        width: 320px;
+    }
+
+    section#servicos{
+        height: 3500px;
+    }
+
+    section#servicos h1{
+        width: 320px;
+        margin: auto;
+        font-size: 26px;
+    }
+
+    section#servicos img{
+        margin: 30px 0;
+    }
+
+    #marcas-carros{
+        animation: letreiro 7s infinite linear alternate-reverse;
+        flex-wrap: nowrap;
+    }
+
+    @keyframes letreiro {
+        from{
+            transform: translateX(0%);
+        }
+        
+        to{
+            transform: translateX(-100%);
+        }
+    }
+
+    section#sobre{
+        height: 1000px;
+    }
+
+    section#sobre img{
+        margin: 40px 0;
+    }
+
+    section#final-sobre h2{
+        font-size: 20px;
+    }
+
+    footer#rodape{
+        height: 670px;
+    }
+
+    footer#rodape p{
+        margin-bottom: 0;
+    }
+
+    .titulo{
+        margin-top: 45px;
+    }
+
+}

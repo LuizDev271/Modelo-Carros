@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros</title>
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="Otimizacoes/Normalize_Css.css">
+
+    <!-- Bootstrap -->
+      <link rel="stylesheet" href="Bootstrap4/css/bootstrap.css">
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+      <!--Font Awesone-->
+      <script src="https://kit.fontawesome.com/4fe87b1342.js" crossorigin="anonymous"></script>
+
+    <!-- Fim Bootstrap -->
+
+    <!-- HTML5SHIV -->
+    <!--[if lt IE 9]>
+	    <script src="_Otimizacoes/html5shiv.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container col-10">
+                <img src="img/Logo.png" alt="" class="navbar-brand img-fluid">
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#lista-nav" type="button">
+                    <i class="fa-solid fa-bars fa-lg" style="color: #fff;"></i>
+                </button>
+
+                <div id="lista-nav" class="justify-content-end collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#servicos" class="nav-link">Nossos Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#sobre" class="nav-link">Sobre Nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#rodape" class="nav-link">Contatos</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <section id="topo" class="d-flex flex-row align-items-center">
+        <div class="container">
+            <div class="row d-flex flex-column">
+                <h6>Serviços automotivos</h6>
+                <span class="borda-embaixo"></span>
+                <h1>Só para pessoas <br>que apreciam a perfeição</h1>
+                <div>
+                    <button class="btn botao-1" type="button">Faça seu orçamento</button>
+                    <button class="btn botao-2" type="button">Saiba Mais</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <nav id="nav-dois" class="navbar d-none d-md-block">
+        <ul class="navbar-nav ml-auto mr-auto d-flex flex-row">
+            <li class="nav-item">
+                <i class="fa-solid fa-medal fa-2xl" style="color: #BF4417;"></i>
+                Mais de 10 anos de <br> experiência!
+            </li>
+            <li class="nav-item bordas">
+                <i class="fa-solid fa-shield-halved fa-2xl" style="color: #BF4417;"></i>
+                Garantia de proteção <br> inclusa!
+            </li>
+            <li class="nav-item">
+                <i class="fa-regular fa-square-check fa-2xl" style="color: #BF4417;"></i> 
+                técnico credenciado
+            </li>
+        </ul>
+    </nav>
+
+    <section id="servicos">
+        <h5>Nossos Serviços</h5>
+        <h1>Qualidade e Dedicação em Todo Detalhe</h1>
+
+        <article class="caixa-conteudo">
+            <div class="container">
+                <div class="row flex-column flex-md-row">
+                    <div class="col-10 col-md-5 m-auto">
+                        <h2>Tópico 1</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, in facilis iste quisquam minima odit suscipit quasi deleniti soluta vel praesentium, cum, numquam nam nulla? Temporibus quos a modi maxime!</p>
+                        <button class="btn botao-1" type="button">Saiba Mais</button>
+                    </div>
+                    <div class="col-10 col-md-5 m-auto">
+                        <img class="img-fluid" src="img/Carro-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="caixa-conteudo">
+            <div class="container">
+                <div class="row flex-column-reverse flex-md-row">
+                    <div class="col-10 col-md-5 m-auto">
+                        <img class="img-fluid" src="img/Carro-2.jpg" alt="">
+                    </div>
+                    <div class="col-10 col-md-5 m-auto">
+                        <h2>Tópico 2</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, in facilis iste quisquam minima odit suscipit quasi deleniti soluta vel praesentium, cum, numquam nam nulla? Temporibus quos a modi maxime!</p>
+                        <button class="btn botao-1" type="button">Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="caixa-conteudo">
+            <div class="container">
+                <div class="row flex-column flex-md-row">
+                    <div class="col-10 col-md-5 m-auto">
+                        <h2>Tópico 3</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, in facilis iste quisquam minima odit suscipit quasi deleniti soluta vel praesentium, cum, numquam nam nulla? Temporibus quos a modi maxime!</p>
+                        <button class="btn botao-1" type="button">Saiba Mais</button>
+                    </div>
+                    <div class="col-10 col-md-5 m-auto">
+                        <img class="img-fluid" src="img/Carro-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="caixa-conteudo">
+            <div class="container">
+                <div class="row flex-column-reverse flex-md-row">
+                    <div class="col-10 col-md-5 m-auto">
+                        <img class="img-fluid" src="img/Carro-4.jpg" alt="">
+                    </div>
+                    <div class="col-10 col-md-5 m-auto">
+                        <h2>Tópico 4</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, in facilis iste quisquam minima odit suscipit quasi deleniti soluta vel praesentium, cum, numquam nam nulla? Temporibus quos a modi maxime!</p>
+                        <button class="btn botao-1" type="button">Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="caixa-conteudo">
+            <div class="container">
+                <div class="row flex-column flex-md-row">
+                    <div class="col-10 col-md-5 m-auto">
+                        <h2>Tópico 5</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, in facilis iste quisquam minima odit suscipit quasi deleniti soluta vel praesentium, cum, numquam nam nulla? Temporibus quos a modi maxime!</p>
+                        <button class="btn botao-1" type="button">Saiba Mais</button>
+                    </div>
+                    <div class="col-10 col-md-5 m-auto">
+                        <img class="img-fluid" src="img/Carro-5.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </article>
+
+    </section>
+
+    <section id="letreiro" class="d-flex flex-row align-items-center">
+        <div class="container col-12">
+            <div id="marcas-carros" class="row">
+                <img class="img-fluid" src="img/Marca-1.png" alt="">
+                <img class="img-fluid" src="img/Marca-2.png" alt="">
+                <img class="img-fluid" src="img/Marca-3.png" alt="">
+                <img class="img-fluid" src="img/Marca-1.png" alt="">
+                <img class="img-fluid" src="img/Marca-2.png" alt="">
+                <img class="img-fluid" src="img/Marca-3.png" alt="">
+                <img class="img-fluid" src="img/Marca-1.png" alt="">
+                <img class="img-fluid" src="img/Marca-2.png" alt="">
+                <img class="img-fluid" src="img/Marca-3.png" alt="">
+                <img class="img-fluid" src="img/Marca-1.png" alt="">
+                <img class="img-fluid" src="img/Marca-2.png" alt="">
+                <img class="img-fluid" src="img/Marca-3.png" alt="">
+                <img class="img-fluid" src="img/Marca-1.png" alt="">
+                <img class="img-fluid" src="img/Marca-2.png" alt="">
+                <img class="img-fluid" src="img/Marca-3.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="d-flex flex-row align-items-center">
+        <div class="container">
+            <div class="row flex-column flex-md-row align-items-center">
+                <div class="col-10 col-md-5">
+                    <img height="100%" class="img-fluid" src="img/Foto-Sobre.jpg" alt="">
+                </div>
+                <div class="col-10 col-md-7">
+                    <h2>Conduzindo sonhos: <br>A história por trás do Presidente </h2>
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, nostrum delectus inventore commodi excepturi consequuntur, deserunt eius fugiat provident debitis illo illum incidunt. Delectus atque reprehenderit, fuga aliquam esse officiis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum numquam deserunt at quasi veniam. Corporis deserunt blanditiis sed esse.</p>
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, nostrum delectus inventore commodi excepturi consequuntur, deserunt eius fugiat provident debitis illo illum incidunt. Delectus atque reprehenderit, fuga aliquam esse officiis. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="final-sobre">
+        <div class="container">
+            <div class="row flex-column align-items-center">
+                <h2>Preparado para transformar seu passeio? <br> Agende hoje mesmo seu horário</h2>
+                <button class="btn botao-1" type="button">Faça seu orçamento</button>
+            </div>
+        </div>
+    </section>
+
+    <footer id="rodape">
+        <div class="container col-11 m-auto">
+            <div class="row flex-column flex-md-row">
+
+                <div class="col-12 col-md-3">
+                    <img class="img-fluid" src="img/Logo.png" alt="">
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <h5 class="titulo">Localização</h5>
+                    <h6>...</h6>
+                    <h5><i class="fa-solid fa-location-dot pt-2" style="color: #F26513;"></i> Cidade - Bairro - Estado</h5>
+
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <h5 class="titulo">Contato</h5>
+                    <h6>...</h6>
+                    <h5><i class="fa-solid fa-phone pr-1 pt-2" style="color: #F26513;"></i>(00) 0 0000-0000</h5>
+
+                </div>
+
+                <div class="col-12 col-md-3">
+                    <h5 class="titulo">Siga-nos</h5>
+                    <h6>...</h6>
+
+                    <ul class="navbar-nav d-flex flex-row pt-1">
+                        <li class="nav-item">
+                            <a href="#"><i class="fa-brands fa-instagram fa-xl mr-2" style="color: white;"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"><i class="fa-brands fa-facebook fa-xl ml-2 mr-2" style="color: white;"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"><i class="fa-brands fa-x-twitter fa-xl ml-2 mr-2" style="color: white;"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div id="fim-rodape" class="row justify-content-between">
+                <p>Copyright &copy; Todos os direitos reservados</p>
+                <p><a href="https://www.instagram.com/devluizsilva" target="_blank">Desenvolvedor Luiz Silva</a></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --cor1: #F26513;
+    --cor2: #BF4417;
+    --cor3: #731E16;
+    --cor4: #F2F2F2;
+    --cor5: #212121;
+}
+
+/*Gerais
+------------*/
+nav{
+    background-color: var(--cor5);
+    border-bottom: 1px solid #b2b1b1;
+}
+
+nav li{
+    padding: 0 20px;
+}
+
+nav li a{
+    color: var(--cor4);
+}
+
+nav li a:hover{
+    color: var(--cor1);
+}
+
+/*Classes
+------------*/
+.borda-embaixo{
+    width: 50px;
+    border: 1px solid #BF4417;
+    margin-bottom: 10px;
+}
+
+.linha-embaixo{
+    width: 25px;
+    border: 1px solid #BF4417;
+}
+
+.caixa-conteudo{
+    padding: 40px 0;
+}
+
+.bordas{
+    border-right: 2px solid #b2b1b1;
+    border-left: 2px solid #b2b1b1;
+}
+
+.botao-1, .botao-2{
+    margin: 10px 5px;
+    color: white;
+    font-weight: 400;
+    border-radius: 5px;
+    width: 230px;
+}
+
+.botao-1{
+    background-color: var(--cor1);
+}
+
+.botao-2{
+    background-color: transparent;
+    border: 1px solid #F26513;
+}
+
+.botao-1:hover{
+    background-color: var(--cor2);
+}
+
+.botao-2:hover{
+    background-color: var(--cor2);
+    border: 1px solid var(--cor2);
+}
+
+/*IDs
+------------*/
+section#topo{
+    color: white;
+    height: 550px;
+    padding-left: 100px;
+    padding-bottom: 55px;
+    background-image: url('../img/Topo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#topo h1{
+    padding: 7px 0;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+nav#nav-dois{
+    height: 100px;
+    background-color: var(--cor5);
+}
+
+nav#nav-dois i{
+    float: left;
+    border-radius: 10px;
+    padding: 25px 15px;
+    margin-right: 10px;
+    background-color: #e5e5e5;
+}
+
+nav#nav-dois li{
+    color: white;
+}
+
+/*Serviços
+------------*/
+section#servicos{
+    height: 2250px;
+    padding-top: 100px;
+}
+
+section#servicos h1{
+    padding-bottom: 30px;
+    color: black;
+    text-align: center;
+}
+
+section#servicos h2{
+    color: var(--cor2);
+}
+
+section#servicos h5{
+    margin: auto;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    width: 170px;
+    text-align: center;
+    border-bottom: 2px solid #BF4417;
+}
+
+article.caixa-conteudo img{
+    border-radius: 10px;
+}
+
+/*letreiro
+------------*/
+section#letreiro{
+    height: 150px;
+    overflow: hidden;
+    background-color: var(--cor5);
+}
+
+#marcas-carros img{
+    margin: 25px;
+}
+
+#marcas-carros{
+    animation: letreiro 7s infinite linear alternate-reverse;
+    flex-wrap: nowrap;
+}
+
+@keyframes letreiro {
+    from{
+        transform: translateX(0%);
+    }
+    
+    to{
+        transform: translateX(-25%);
+    }
+}
+
+/*Sobre
+------------*/
+section#sobre{
+    height: 500px;
+}
+
+section#sobre h2{
+    padding: 15px 0;
+}
+
+section#sobre img{
+    border: 2px solid #BF4417;
+    border-radius: 10px;
+}
+
+/*Sobre Final
+------------*/
+section#final-sobre{
+    height: 250px;
+}
+
+section#final-sobre h2{
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+/*Rodapé
+------------*/
+footer#rodape{
+    background-color: var(--cor5);
+    padding-top: 35px;
+    height: 280px;
+}
+
+footer#rodape h4{
+    width: 150px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: white;
+}
+
+footer#rodape h5{
+    color: white;
+    font-weight: 300;
+}
+
+footer#rodape h6{
+    width: 50px;
+    height: 0px;
+    text-indent: -9999px;
+    border-bottom: 1px solid #BF4417;
+}
+
+footer#rodape li i{
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-color: var(--cor1);
+}
+
+footer#rodape li i:hover{
+    background-color: var(--cor2);
+}
+
+#fim-rodape{
+    margin-top: 100px;
+    border-top: 1px solid #BF4417;
+}
+
+#fim-rodape p{
+    color: white;
+    padding-top: 15px;
+}
+
+#fim-rodape a{
+    color: var(--cor1);
+}
+
+#fim-rodape a:hover{
+    color:  #BF4417;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #BF4417;
+}
