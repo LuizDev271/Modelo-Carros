@@ -1,5 +1,5 @@
 # Modelo Automotivos
-Modelo de Site para Pesquisas
+Modelo de Site para Automotivas
 <br>
 Tecnologias Usadas: <br>
 
