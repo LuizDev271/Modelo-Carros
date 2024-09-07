@@ -13,7 +13,7 @@ Tecnologias Usadas: <br>
 
 # Sobre o Modelo
 
-Projeto individual, Modelo de Site Responsivo sobre Automotivos, criado a base de HTML5, CSS3, Bootstrap e JavaScript, abrangendo recursos como Flex-Box, Media Queries, Barra de Navegação Líquida, Imagens com resoluções Fluídas, entre outros recursos.
+Projeto individual, Modelo de Site Responsivo sobre Automotivos, criado a base de HTML5, CSS3 e Bootstrap, abrangendo recursos como Flex-Box, Media Queries, Barra de Navegação Líquida, Imagens com resoluções Fluídas, entre outros recursos.
 (Disponível em Monitores de PC, Smartphones)
 
 <br>
